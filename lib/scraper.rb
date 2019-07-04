@@ -17,10 +17,7 @@ class Scraper
         
       end
     end
-    Scraper.new.get_page
-  end
+    Scraper.new_get_page
   
-end
-
 
 
