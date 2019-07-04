@@ -14,6 +14,9 @@ class Course
       @@all
     end
     
+  def #get_page
+  end
+    
     def self.reset_all 
       @@all.clear
       
