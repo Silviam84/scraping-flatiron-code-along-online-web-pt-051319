@@ -12,8 +12,12 @@ class Scraper
         puts "Title: #{course.title}"
         puts "  Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
+        
+        binding.pry
+        
       end
     end
+    Scraper.new.get_page
   end
   
 end
