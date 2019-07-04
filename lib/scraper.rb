@@ -3,7 +3,7 @@ require 'open-uri'
 
 require_relative './course.rb'
 
-class Scraper
+class Scraper 
   
     def print_courses
     self.make_courses
@@ -12,11 +12,12 @@ class Scraper
         puts "Title: #{course.title}"
         puts "  Schedule: #{course.schedule}"
         puts "  Description: #{course.description}"
+        
+        binding.pry
+        
       end
     end
-  end
+    Scraper.new_get_page
   
-end
-
 
 
